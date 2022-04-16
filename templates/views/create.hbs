@@ -1,0 +1,48 @@
+
+{{>header}}
+
+<div class="register">
+    <div class="side-bar">
+        <h3>Account</h3>
+        <h3>Sign-up</h3>
+        <h3>Page</h3>
+    </div>
+    <div class="main-form">
+        <h2>Fill the below form</h2>
+        <form action="/views/create" method="post">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name">
+
+            <label for="DOB">Enter your date of birth(in dd-mm-yyyy format): </label>
+            <input type="text" name="DOB" id="DOB">
+
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email">
+
+            <label for="pnum">Enter your Phone number: </label>
+            <input type="number" name="pnum" id="pnum">
+
+            <label for="addr">Enter your address: </label>
+            <textarea name="addr" id="addr" cols="30" rows="10"></textarea>
+
+            <label for="">Select Your Gender: </label>
+            <input type="checkbox" name="gender" id="Male" value="male">
+            <label for="Male">MALE</label>
+            <input type="checkbox" name="gender" id="Female" value="female">
+            <label for="Female">FEMALE</label>
+
+            <label for="password">Enter your password: </label>
+            <input type="password" name="password" id="password">
+
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" name="cpassword" id="cpassword">
+
+            <br>
+
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</div>
+
+{{>footer}}

@@ -1,0 +1,285 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Section  */
+
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    background-color: #c9c9c9;
+}
+
+.navbar h3 {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/* Main Section  */
+
+.main-container {
+    width: 94.7%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/main.png');
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    align-items: center;
+    background-color: aqua;
+}
+
+.main-container h1{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(10, 34, 89);
+}
+
+/* About Section  */
+
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.about-bank {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+}
+
+.feature i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #0044ff;
+}
+
+.feature p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Social Media Section  */
+
+.social {
+    padding: 40px;
+    text-align: center;
+    background-color: #0073ff;
+}
+
+.social-text {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.apple, .android {
+    padding: 8px;
+    width: 10%;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.apple {
+    background-color: #fc3240;
+}
+
+.android {
+    background-color: #00ff33;
+}
+
+.social-icons {
+    padding: 30px;
+    font-size: 30px;
+    color: #7de3ff;
+}
+
+.social-icons i {
+    margin: 0 30px;
+}
+
+/* Registration Page  */
+
+.register {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+}
+
+.side-bar {
+    height: 100;
+    width: 25vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.main-form {
+    height: 100;
+    width: 75vw;
+    background-color: #000;
+    color: #fff;
+    padding: 42px;
+}
+
+.main-form h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-form label {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.main-form input {
+    width: 33%;
+    font-size: 1.2rem;
+    border-style: none none none #fff;
+    background-color: #000;
+    outline: none;
+    padding: 10px;
+    border-style: none none solid;
+    color: #fff;
+    text-align: left;
+}
+
+.main-form textarea {
+    display: block;
+    resize: none;
+    width: 39%;
+    border-style: none none none solid;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-form input[type='checkbox'] {
+    position: relative;
+    top: 44px;
+    right: 51px;
+}
+
+.main-form input[type='reset'], .main-form input[type='submit'] {
+    border: 1px solid #fff;
+    width: 10%;
+    text-align: center;
+    border-radius: 14px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+/* Login page  */
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0073ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.form {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 17px;
+    margin-top: 25px;
+}
+
+.form h3 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #0073ff;
+}
+
+.form label {
+    display: block;
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+
+.form input {
+    width: 100%;
+    font-size: 1.2rem;
+    border-color: #0073ff;
+    outline: none;
+    padding: 10px;
+    border-style: none none solid;
+    text-align: left;
+}
+
+.form input[type='submit'] {
+    width: 33%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #0073ff;
+    color: #fff;
+}
